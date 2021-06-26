@@ -1,24 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-
 # # Mining the Social Web, 3rd Edition
 # ## Chapter 9: Twitter Cookbook
-# 
-# This Jupyter Notebook provides an interactive way to follow along with and explore the numbered examples from [_Mining the Social Web (2nd Edition)_](http://bit.ly/135dHfs). The intent behind this notebook is to reinforce the concepts from the sample code in a fun, convenient, and effective way. This notebook assumes that you are reading along with the book and have the context of the discussion as you work through these exercises.
-# 
-# In the somewhat unlikely event that you've somehow stumbled across this notebook outside of its context on GitHub, [you can find the full source code repository here](http://bit.ly/MiningTheSocialWeb3E).
-# 
-# ## Copyright and Licensing
-# 
-# You are free to use or adapt this notebook for any purpose you'd like. However, please respect the [Simplified BSD License](https://github.com/ptwobrussell/Mining-the-Social-Web-2nd-Edition/blob/master/LICENSE.txt) that governs its use.
-# 
-# ## Notes
-# 
-# This notebook is still a work in progress and currently features 25 recipes. The example titles should be fairly self-explanatory, and the code is designed to be reused as you progress further in the notebook --- meaning that you should follow along and execute each cell along the way since later cells may depend on functions being defined from earlier cells. Consider this notebook draft material at this point.
-
-# ## Example 1. Accessing Twitter's API for development purposes
 
 # In[1]:
+
 import twitter
 
 def oauth_login():
